@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
+import Image from 'next/image'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -12,33 +12,44 @@ const LogoBox = styled.span`
   line-height: 20px;
   padding: 10px;
 
-  > svg {
+  > div {
     transition: 200ms ease;
+    transform: rotate(-20deg);
+    width: 18px;    // Optimized size
+    height: 18px;   // Optimized size
+    margin-right: 4px;    // Optimized spacing
+    filter: ${props => props.isDark ? 'invert(1)' : 'none'};
   }
 
-  &:hover > svg {
-    transform: rotate(20deg);
+  &:hover > div {
+    transform: rotate(0deg);
   }
 `
 
 const Logo = () => {
+  const isDark = useColorModeValue(false, true)
+  
   return (
-    (<Link href="/" scroll={false}>
-
-      <LogoBox>
-        <FootprintIcon />
+    <Link href="/" scroll={false}>
+      <LogoBox isDark={isDark}>
+        <div>
+          <Image
+            src="/helmet.png"
+            alt="Helmet icon"
+            width={18}
+            height={18}
+          />
+        </div>
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily='M PLUS Rounded 1c", sans-serif'
           fontWeight="bold"
-          ml={3}
         >
-          Takuya Matsuyama
+          Brian Tobing
         </Text>
       </LogoBox>
-
-    </Link>)
-  );
+    </Link>
+  )
 }
 
 export default Logo

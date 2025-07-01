@@ -16,10 +16,11 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
+import { BioSectionGrid } from '../components/bio'
 
 const Home = () => (
   <Layout>
@@ -32,15 +33,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a civil engineering student based in Canada!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Brian Tobing 
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Aspiring structural engineer with a passion for project management</p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,10 +60,10 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/web_pic.JPG"
               alt="Profile image"
-              width="100"
-              height="100"
+              width="130"
+              height="150"
             />
           </Box>
         </Box>
@@ -70,10 +71,18 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          I am an incoming third year civil engineering student studying at the University of Toronto.
+          Throughout my education journey and past internships, I have developed a
+          passion in structural engineering, enjoyed the process of
+          problem-solving, and have a strong interest in project management. I aspire 
+          to contribute to impactful projects that will shape the city skyline. I am 
+          currently pursuing a major in Civil Engineering and minoring in Engineering 
+          Business.
+
+          {/* Takuya is a freelance and a full-stack developer based in Osaka with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
@@ -92,17 +101,18 @@ const Home = () => (
           >
             Dev as Life
           </Link>
-          &quot; has more than 100k subscribers.
+          &quot; has more than 100k subscribers. */}
+          
         </Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/works"
+            href="/projects"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            My Projects
           </Button>
         </Box>
       </Section>
@@ -112,23 +122,35 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2005</BioYear>
+          Born in Hong Kong (香港)
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2021</BioYear>
+          Completed Grade 10 in St. Pauls' College (聖保羅書院), Hong Kong
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2023</BioYear>
+          Completed high school at Albert College, Belleville, Ontario, Canada
         </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
-        </BioSection>
+        <BioSectionGrid>
+          <BioYear>2023 - 2028 (Expected)</BioYear>
+          <span>Studying Civil Engineering + PEY Co-op at University of Toronto</span>
+        </BioSectionGrid>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Work Experience
+        </Heading>
+        <BioSectionGrid>
+          <BioYear>2025 May-Aug</BioYear>
+          <span>Structural Research Assistant under Prof. Shamim Sheikh at University of Toronto</span>
+        </BioSectionGrid>
+        <BioSectionGrid>
+          <BioYear>2024 May-Aug</BioYear>
+          <span>Project Coordinator Intern at Shun Yuen Construction Company Ltd., Hong Kong</span>
+        </BioSectionGrid>
       </Section>
 
       <Section delay={0.3}>
@@ -136,46 +158,62 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          {' '}
+          <Link href="https://open.spotify.com/user/21hr4zjcu6yypv33sfwvxknya
+" target="_blank">
+            Music
           </Link>
-          , Playing Drums,{' '}
+          , Chess
+          {/*{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
             Photography
+          </Link>*/}
+          ,{' '}
+          <Link as={NextLink} href="/gallery" passHref scroll={false}>
+            Drawing
           </Link>
-          , Leica, Machine Learning
+          , NBA, F1, Mahjong (麻將)
         </Paragraph>
       </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Socials
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://www.linkedin.com/in/brian-tobing/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @briantobing
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://github.com/briantobing" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @briantobing
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="mailto:brian.tobing@mail.utoronto.ca" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<EmailIcon />}
               >
-                @inkdrop_app (English)
+                Email
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/*<ListItem>
             <Link href="https://twitter.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
@@ -196,9 +234,9 @@ const Home = () => (
                 @craftzdog
               </Button>
             </Link>
-          </ListItem>
+          </ListItem>*/}
         </List>
-
+        {/*
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
@@ -234,7 +272,7 @@ const Home = () => (
           >
             Sign up my newsletter here
           </Button>
-        </Box>
+        </Box>*/}
       </Section>
     </Container>
   </Layout>
