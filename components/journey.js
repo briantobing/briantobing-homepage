@@ -5,7 +5,7 @@ const Journey = () => {
   return (
     <Container>
       <Section delay={0.1}>
-        <Heading as="h3" variant="section-title'>
+        <Heading as="h3" variant="section-title">
           Vision & Perspective
         </Heading>
         <Text mb={4}>
@@ -14,7 +14,7 @@ const Journey = () => {
       </Section>
 
       <Section delay={0.2}>
-        <Heading as="h3" variant="section-title'>
+        <Heading as="h3" variant="section-title">
           The Future Engineer
         </Heading>
         <Text mb={4}>
@@ -23,7 +23,7 @@ const Journey = () => {
       </Section>
 
       <Section delay={0.3}>
-        <Heading as="h3" variant="section-title'>
+        <Heading as="h3" variant="section-title">
           Future Practice
         </Heading>
         <Text mb={4}>
@@ -32,7 +32,7 @@ const Journey = () => {
       </Section>
 
       <Section delay={0.4}>
-        <Heading as="h3" variant="section-title'>
+        <Heading as="h3" variant="section-title">
           Evolution & Adaptation
         </Heading>
         <Text mb={4}>
@@ -41,7 +41,7 @@ const Journey = () => {
       </Section>
 
       <Section delay={0.5}>
-        <Heading as="h3" variant="section-title'>
+        <Heading as="h3" variant="section-title">
           Mission
         </Heading>
         <Text>

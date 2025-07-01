@@ -93,7 +93,7 @@ const Gallery = () => {
   const handleMouseMove = (e) => {
     if (scale > 1) {
       const container = e.currentTarget
-      const image = container.querySelector('img')
+      //const image = container.querySelector('img')
       const rect = container.getBoundingClientRect()
       
       const x = (e.clientX - rect.left) / container.offsetWidth

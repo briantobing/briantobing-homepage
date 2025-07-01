@@ -14,7 +14,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+//import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 // import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -126,7 +126,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Completed Grade 10 in St. Pauls' College (聖保羅書院), Hong Kong
+          Completed Grade 10 in St. Pauls&apos; College (聖保羅書院), Hong Kong
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
