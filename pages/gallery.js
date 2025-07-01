@@ -1,4 +1,4 @@
-import { Container, Heading, Box, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, Box } from '@chakra-ui/react'
 import { useState, useEffect } from 'react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'

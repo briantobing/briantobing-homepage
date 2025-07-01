@@ -5,8 +5,7 @@ import {
   ListItem,
   Link,
   Text,
-  useColorModeValue,
-  Image  // Make sure Image is imported
+  useColorModeValue
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'

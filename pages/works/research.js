@@ -3,12 +3,9 @@ import {
   Badge,
   List,
   ListItem,
-  Link,
   Text,
-  useColorModeValue,
-  Image
+  useColorModeValue
 } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -27,7 +24,7 @@ const Work = () => {
             Structural Engineering Research Assistant</Text> under Prof. Shamim Sheikh at University of Toronto, 
           I conducted research on <Text as="span" color={highlightColor} fontWeight="500" display="inline">
             fiberglass reinforced polymers (GFRP)</Text> for concrete reinforcement. Through testing structural specimens 
-          and analyzing environmental durability, our research evaluated GFRP's performance under <Text as="span" 
+          and analyzing environmental durability, our research evaluated GFRP&apos;s performance under <Text as="span" 
           color={highlightColor} fontWeight="500" display="inline">various environmental conditions</Text> including 
           elevated temperatures, marine exposure, and chemical environments. This study contributes to advancing 
           sustainable construction materials and improving structural durability in challenging environments.

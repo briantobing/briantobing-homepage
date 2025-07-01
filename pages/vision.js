@@ -2,12 +2,9 @@ import { Text, Container, Box, Heading, useColorModeValue } from '@chakra-ui/rea
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import NextLink from 'next/link'
-import { Link } from '@chakra-ui/react'
 
 const Vision = () => {
   const highlightColor = useColorModeValue('teal.600', 'teal.200')
-  const boxBg = useColorModeValue('whiteAlpha.600', 'whiteAlpha.200')
   const headerBg = useColorModeValue('teal.50', 'whiteAlpha.200')
   
   return (

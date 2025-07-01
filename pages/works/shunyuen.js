@@ -3,11 +3,9 @@ import {
   Badge,
   List,
   ListItem,
-  Link,
   Text,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'

@@ -18,7 +18,6 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href

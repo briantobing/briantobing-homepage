@@ -28,11 +28,11 @@ export const ProfessionalBio = () => {
   return (
     <Box>
       <Text mb={4}>
-        Hi, I'm Brian Tobing, a Civil Engineering student at the University of Toronto with a vision for the future of structural engineering. In an era where artificial intelligence is revolutionizing our industry, I position myself at the intersection of traditional structural engineering principles and emerging technological innovations.
+        Hi, I&apos;m Brian Tobing, a Civil Engineering student at the University of Toronto with a vision for the future of structural engineering. In an era where artificial intelligence is revolutionizing our industry, I position myself at the intersection of traditional structural engineering principles and emerging technological innovations.
       </Text>
 
       <Text mb={4}>
-        I believe the future structural engineer must be both a technical expert and a digital innovator. As AI continues to transform our approach to design and analysis, I'm passionate about leveraging these tools to enhance our capabilities in structural calculations, CAD development, and project optimization. This technological integration isn't just about efficiency—it's about pushing the boundaries of what's possible in structural design.
+        I believe the future structural engineer must be both a technical expert and a digital innovator. As AI continues to transform our approach to design and analysis, I&apos;m passionate about leveraging these tools to enhance our capabilities in structural calculations, CAD development, and project optimization. This technological integration isn&apos;t just about efficiency—it's about pushing the boundaries of what&apos;s possible in structural design.
       </Text>
 
       <Text mb={4}>
@@ -40,7 +40,7 @@ export const ProfessionalBio = () => {
       </Text>
 
       <Text mb={4}>
-        The future of structural engineering lies in our ability to adapt and embrace emerging technologies while maintaining the fundamental principles that ensure safety and reliability. I'm committed to being at the forefront of this evolution, developing workflows that integrate AI tools with engineering expertise to deliver unprecedented value to our projects and clients.
+        The future of structural engineering lies in our ability to adapt and embrace emerging technologies while maintaining the fundamental principles that ensure safety and reliability. I&apos;m committed to being at the forefront of this evolution, developing workflows that integrate AI tools with engineering expertise to deliver unprecedented value to our projects and clients.
       </Text>
 
       <Text>

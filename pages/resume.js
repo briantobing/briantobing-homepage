@@ -1,4 +1,4 @@
-import { Container, Heading, Box, Button, Link, AspectRatio } from '@chakra-ui/react'
+import { Container, Heading, Box, Button, AspectRatio } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { DownloadIcon } from '@chakra-ui/icons'
