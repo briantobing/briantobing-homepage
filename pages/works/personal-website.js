@@ -19,7 +19,7 @@ const Work = () => {
     <Layout title="Personal Website">
       <Container>
         <Title>
-          Personal Website <Badge>2024</Badge>
+          Personal Website <Badge>2025</Badge>
         </Title>
         <P>
           As an aspiring <Text as="span" color={highlightColor} fontWeight="500" display="inline">Structural Engineer</Text>, 
@@ -40,7 +40,7 @@ const Work = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link href="https://briantobing-homepage.vercel.app/" target="_blank">
-              briantobing <ExternalLinkIcon mx="2px" />
+              briantobing<ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
