@@ -22,13 +22,13 @@ const Resume = () => (
         >
           <AspectRatio ratio={8.5 / 11} w="100%" maxH="800px">
             <object
-              data="/Resume_BrianTobing.pdf#view=FitH"
+              data={`/Resume_BrianTobing.pdf?v=${Date.now()}#view=FitH`}
               type="application/pdf"
               width="100%"
               height="100%"
             >
               <iframe
-                src="/Resume_BrianTobing.pdf#view=FitH" 
+                src={`/Resume_BrianTobing.pdf?v=${Date.now()}#view=FitH`}
                 title="Resume Preview"
                 width="100%"
                 height="100%"
@@ -44,7 +44,7 @@ const Resume = () => (
         <Box align="center" my={4}>
           <Button
             as="a"
-            href="/Resume_BrianTobing.pdf"
+            href={`/Resume_BrianTobing.pdf?v=${Date.now()}`}
             download="Resume_BrianTobing.pdf"
             leftIcon={<DownloadIcon />}
             colorScheme="teal"
