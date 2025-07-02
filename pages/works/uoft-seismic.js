@@ -16,7 +16,7 @@ const Work = () => {
   const highlightColor = useColorModeValue('teal.500', 'teal.200')
 
   return (
-    <Layout title="UofT Seismic Design Team">
+    <Layout title="Seismic">
       <Container>
         <Title>
           UofT Seismic Design Team <Badge>2023 - present</Badge>

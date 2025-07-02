@@ -12,7 +12,7 @@ import thumbPersonalWebsite from '../public/images/works/personalwebsite_eyecatc
 
 const Works = () => {
   return (
-    <Layout title="Works">
+    <Layout title="Projects">  
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
           Design Teams

@@ -16,7 +16,7 @@ const Work = () => {
   const highlightColor = useColorModeValue('teal.500', 'teal.200')
 
   return (
-    <Layout title="Personal Website">
+    <Layout title="Website">
       <Container>
         <Title>
           Personal Website <Badge>2025</Badge>

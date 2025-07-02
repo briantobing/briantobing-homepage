@@ -10,7 +10,7 @@ const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
   loading: () => <VoxelDogLoader />
 })
 
-const Main = ({ children, router }) => {
+const Main = ({ children, router, title = "Homepage" }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
@@ -26,7 +26,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Brian Tobing" />
         <meta name="og:title" content="Brian Tobing" />
         <meta property="og:type" content="website" />
-        <title>Brian Tobing - Homepage</title>
+        <title>Brian Tobing - {title}</title>
       </Head>
 
       <NavBar path={router.asPath} />

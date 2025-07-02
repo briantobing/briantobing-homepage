@@ -14,7 +14,7 @@ const Work = () => {
   const highlightColor = useColorModeValue('teal.500', 'teal.200')
 
   return (
-    <Layout title="Shun Yuen Construction Company Limited">
+    <Layout title="Shun Yuen">
       <Container>
         <Title>
           Shun Yuen Construction Limited <Badge>2024 summer</Badge>
