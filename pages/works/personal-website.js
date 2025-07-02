@@ -39,8 +39,8 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://briantobing.com" target="_blank">
-              https://briantobing.com <ExternalLinkIcon mx="2px" />
+            <Link href="https://briantobing-homepage.vercel.app/" target="_blank">
+              https://briantobing-homepage.vercel.app/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -53,7 +53,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/briantobing/personal-website" target="_blank">
+            <Link href="https://github.com/briantobing/briantobing-homepage" target="_blank">
               GitHub <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
