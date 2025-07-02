@@ -16,7 +16,7 @@ const images = [
   {
     src: '/photo-gallery/queens-gambit.jpg',
     alt: 'Queens Gambit',
-    caption: 'Queens Gambit',
+    caption: "The Queen's Gambit",
     width: 600,
     height: 800
   },
