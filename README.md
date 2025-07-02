@@ -1,12 +1,6 @@
-# Takuya's Homepage
+# Brian Tobing's Homepage
 
-[https://www.craftz.dog/](https://www.craftz.dog/)
-
-## Tutorial
-
-Watch how I built this website on YouTube:
-
-[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
+[https://briantobing-homepage.vercel.app/](https://briantobing-homepage.vercel.app/)
 
 ## Stack
 
@@ -33,15 +27,8 @@ $PROJECT_ROOT
 
 MIT License.
 
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage](https://www.craftz.dog/)
-- Do not use the 3d voxel dog
+Project inspired by Takuya Matsuyama [https://www.craftz.dog/](https://www.craftz.dog/)
 
 Check out [LICENSE](./LICENSE) for more detail.
 
 ---
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
