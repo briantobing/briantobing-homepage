@@ -28,7 +28,7 @@ const Resume = () => (
               height="100%"
             >
               <iframe
-                src="/Resume_BrianTobing.pdf#view=FitH"
+                src="/Resume_BrianTobing.pdf#view=FitH" 
                 title="Resume Preview"
                 width="100%"
                 height="100%"
