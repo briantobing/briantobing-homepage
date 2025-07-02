@@ -1,6 +1,6 @@
 # Brian Tobing's Homepage
 
-[https://www.craftz.dog/](https://www.craftz.dog/)
+[https://briantobing-homepage.vercel.app/](https://briantobing-homepage.vercel.app/)
 
 ## Tutorial
 
