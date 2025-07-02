@@ -1,4 +1,4 @@
-# Takuya's Homepage
+# Brian Tobing's Homepage
 
 [https://www.craftz.dog/](https://www.craftz.dog/)
 
